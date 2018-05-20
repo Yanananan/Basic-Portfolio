@@ -111,6 +111,8 @@ p{
     width: 865px;
     padding: 5px 10px 5px 10px;
     margin: 0px 35px 10px 35px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 .Message{
