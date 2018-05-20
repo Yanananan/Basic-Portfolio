@@ -46,6 +46,10 @@ a{
     text-decoration: none;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
 .table{
     height: 20px;
     padding: 32px 0px;
