@@ -76,7 +76,9 @@ a:hover {
     border: solid #dddddd 1px;
     margin: auto;
     margin-top: 37px;
+    margin-bottom: 100px;
     background-color: white;
+    min-height: calc(100% + 55px);
 }
 
 .ContentTitle{
@@ -133,6 +135,10 @@ p{
     font-size: 18px;
 }
 
+#SubmitButton:hover{
+    background-color: white;
+}
+
 .PortfolioContent{
     height: 900px;
 }
@@ -143,16 +149,11 @@ p{
 }
 
 #Hangman, #RPG, #Trivia, #Rutger, #RPS{
-    /* background-color: green; */
     background-image: url(https://yanananan.github.io/Basic-Portfolio/assets/images/logopic.jpg);
     background-size: 273px 205px;
     background-repeat: no-repeat;
     float: left;
     margin: 0px 40px 55px 0px;
-}
-
-#RPS{
-    /* clear: both; */
 }
 
 .ImageText{
@@ -167,6 +168,11 @@ p{
     font-size: 20px;
 }
 
+/* below is styling for the footer banner. used for all 3 pages. id=blankbanner is for correct spacing with the banner even tho it's within the content section. */
+
+.blankbanner{
+    height: 55px;
+}
 .copyrightbanner{
     height: 55px;
     border-top: #4aaaa5 7px solid;
